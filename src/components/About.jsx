@@ -1,4 +1,5 @@
 import SectionTitle from './SectionTitle';
+import { FaFileDownload } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -59,13 +60,16 @@ const About = () => {
             <h3 className='capitalize font-bold text-emerald-500 my-1'>
               resume :
             </h3>
-            <a
-              href='../assets/Mahammed_Shoheb_CV.pdf'
-              className='text-emerald-500 underline hover:text-emerald-800'
-              download={true}
-            >
-              Download
-            </a>
+            <p>
+              <a
+                href='../assets/Mahammed_Shoheb_CV.pdf'
+                className='text-emerald-500 capitalize  hover:text-emerald-800 inline-block  '
+                download={true}
+              >
+                download{' '}
+                <FaFileDownload className='animate-bounce inline-block text-xl' />
+              </a>
+            </p>
           </div>
         </div>
       </div>
