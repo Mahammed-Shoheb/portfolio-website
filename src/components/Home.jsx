@@ -13,6 +13,7 @@ const LandingPage = () => {
             src={profileImg}
             alt='Mahammed Shoheb Profile'
             className='rounded-[50%] w-[100%] h-[100%] object-cover '
+            loading='eager'
           />
         </div>
         <div className='text-center'>
