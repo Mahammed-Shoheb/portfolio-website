@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 
 const ProjectsCard = ({ title, websiteURL, githubURL, imgs, techStack }) => {
   return (
-    <article className='w-full rounded bg-emerald-200'>
+    <article className='w-full rounded bg-emerald-200 drop-shadow-lg hover:drop-shadow-2xl'>
       <Carousel imgs={imgs} />
       <div className='p-5 mb-2'>
         <h3 className='capitalize mb-2'>
