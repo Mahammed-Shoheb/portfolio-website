@@ -137,6 +137,18 @@ export const projects = [
     ],
     techStack: ['react'],
   },
+  {
+    id: nanoid(),
+    title: 'cart project',
+    websiteURL: 'https://cart-project-by-shoheb.netlify.app/',
+    githubURL: 'https://github.com/Mahammed-Shoheb/cart-project',
+    imgs: [
+      '/assets/images/cart-project-1.PNG',
+      '/assets/images/cart-project-2.PNG',
+      '/assets/images/cart-project-3.PNG',
+    ],
+    techStack: ['react', 'redux', 'tailwind CSS'],
+  },
 ];
 
 export const socialLinks = [
