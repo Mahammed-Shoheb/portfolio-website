@@ -30,8 +30,8 @@ const About = () => {
               work :{' '}
             </h3>
             <p>
-              Working as a Staff Associate, Tech Support in AT&T Communication
-              Services
+              Working as a Staff Associate, Tech Support Engineer at AT&T
+              Communication Services
             </p>
           </div>
           <div>

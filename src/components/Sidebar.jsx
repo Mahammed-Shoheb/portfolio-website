@@ -8,7 +8,7 @@ const Sidebar = ({ isSidebarOpen, closeSidebar }) => {
     <aside
       className={`grid grid-rows-[auto,1fr,auto] md:hidden fixed inset-0 max-w-md bg-emerald-100 translate-x-[${
         isSidebarOpen ? '0%' : '-100%'
-      }] transition duration-300 z-[100]`}
+      }] transition duration-300 z-[100] overflow-y-auto `}
     >
       <div className='flex justify-between p-6 '>
         <Logo />
@@ -24,7 +24,11 @@ const Sidebar = ({ isSidebarOpen, closeSidebar }) => {
           const { id, href, title, icon } = link;
           return (
             <li key={id} className='text-3xl hover:ps-4 hover:text-emerald-500'>
-              <a href={href} className='flex p-1' onClick={closeSidebar}>
+              <a
+                href={href}
+                className='flex p-1 items-center'
+                onClick={closeSidebar}
+              >
                 <span className='p-1'>{icon}</span>
                 {title}
               </a>
