@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
-import { BiRadioCircleMarked } from 'react-icons/bi';
+import BlurImageImport from './BlurImageImport';
+
 const Carousel = ({ imgs }) => {
   const [index, setIndex] = useState(0);
   const next = () => {
@@ -22,20 +23,7 @@ const Carousel = ({ imgs }) => {
   return (
     <div className='h-56 overflow-hidden relative'>
       {imgs.map((img, i) => {
-        return (
-          <img
-            src={img}
-            alt='project image'
-            key={i}
-            className={`absolute inset-0 ${
-              i === index
-                ? 'translate-x-[0%]'
-                : i < index
-                ? 'translate-x-[-100%]'
-                : 'translate-x-[100%]'
-            } duration-200  w-full  rounded-t h-full`}
-          />
-        );
+        return <BlurImageImport image={img} key={i} i={i} index={index} />;
       })}
       <div className='absolute bottom-1 left-[50%] translate-x-[-50%]'>
         {imgs.map((_, i) => {

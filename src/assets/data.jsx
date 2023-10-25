@@ -83,9 +83,18 @@ export const projects = [
     websiteURL: 'https://traveltownholidays.com/',
     githubURL: 'https://github.com/Saleemtravel/traveltownholidays',
     imgs: [
-      '/assets/images/traveltownholiday-1.PNG',
-      '/assets/images/traveltownholiday-2.PNG',
-      '/assets/images/traveltownholiday-3.PNG',
+      {
+        imgURL: '/assets/images/traveltownholiday-1.PNG',
+        blurHash: 'L7RDN5}[9Z?H16M{^jR+16Z$IVMx',
+      },
+      {
+        imgURL: '/assets/images/traveltownholiday-2.PNG',
+        blurHash: 'LECGb[x]018_~q%h9FE0O^$,nzIT',
+      },
+      {
+        imgURL: '/assets/images/traveltownholiday-3.PNG',
+        blurHash: 'L6P7La00:z=|000K}Pkq07iGNsxa',
+      },
     ],
     techStack: ['react', 'styled components'],
   },
@@ -95,9 +104,18 @@ export const projects = [
     websiteURL: 'https://traveltownholidays-backup.netlify.app/',
     githubURL: 'https://github.com/Mahammed-Shoheb/traveltownholidays-backup',
     imgs: [
-      '/assets/images/traveltownholiday-backup-1.PNG',
-      '/assets/images/traveltownholiday-backup-2.PNG',
-      '/assets/images/traveltownholiday-backup-3.PNG',
+      {
+        imgURL: '/assets/images/traveltownholiday-backup-1.PNG',
+        blurHash: 'LXFFR19Y%2M|gls*kCoK?F%MIpt6',
+      },
+      {
+        imgURL: '/assets/images/traveltownholiday-backup-2.PNG',
+        blurHash: 'LEN-Ayx[v}r^03axRQWB~XR6X-Sd',
+      },
+      {
+        imgURL: '/assets/images/traveltownholiday-backup-3.PNG',
+        blurHash: 'L3LXc0p300?Y0001^*-g000h-o9E',
+      },
     ],
     techStack: ['HTML', 'CSS', 'javascript', 'bootstrap'],
   },
@@ -107,9 +125,18 @@ export const projects = [
     websiteURL: 'https://tic-tac-toe-game-by-shoheb.netlify.app/',
     githubURL: 'https://github.com/Mahammed-Shoheb/tic-tac-toe',
     imgs: [
-      '/assets/images/tic-tac-toe-1.PNG',
-      '/assets/images/tic-tac-toe-2.PNG',
-      '/assets/images/tic-tac-toe-3.PNG',
+      {
+        imgURL: '/assets/images/tic-tac-toe-1.PNG',
+        blurHash: 'LNR3Wqof~nofx.fQN2aztQfQRPfP',
+      },
+      {
+        imgURL: '/assets/images/tic-tac-toe-2.PNG',
+        blurHash: 'LNR3Wqof_Kof%HayN3aytQj[RPj@',
+      },
+      {
+        imgURL: '/assets/images/tic-tac-toe-3.PNG',
+        blurHash: 'LORC[Iof_Kof%GfQN2fQx[fQRPfP',
+      },
     ],
     techStack: ['react'],
   },
@@ -119,9 +146,18 @@ export const projects = [
     websiteURL: 'https://recipe-db-by-shoheb.netlify.app/',
     githubURL: 'https://github.com/Mahammed-Shoheb/recipeDB',
     imgs: [
-      '/assets/images/recipe-db-1.PNG',
-      '/assets/images/recipe-db-2.PNG',
-      '/assets/images/recipe-db-3.PNG',
+      {
+        imgURL: '/assets/images/recipe-db-1.PNG',
+        blurHash: 'LkRCxlofx^j].Ta#RObGDhjZxuoL',
+      },
+      {
+        imgURL: '/assets/images/recipe-db-2.PNG',
+        blurHash: 'LlQJZUoz%NWBWCoeayaz?wWBMxkC',
+      },
+      {
+        imgURL: '/assets/images/recipe-db-3.PNG',
+        blurHash: 'LNQTAb4m?I?w?aoeV@WV%i%hW-IT',
+      },
     ],
     techStack: ['react', 'react query'],
   },
@@ -131,9 +167,18 @@ export const projects = [
     websiteURL: 'https://to-do-app-by-shoheb.netlify.app/',
     githubURL: 'https://github.com/Mahammed-Shoheb/todo_app',
     imgs: [
-      '/assets/images/to-do-app-1.PNG',
-      '/assets/images/to-do-app-2.PNG',
-      '/assets/images/to-do-app-3.PNG',
+      {
+        imgURL: '/assets/images/to-do-app-1.PNG',
+        blurHash: 'L1R3Wt_2_NM;0Boe?cIY00Iar}-%',
+      },
+      {
+        imgURL: '/assets/images/to-do-app-2.PNG',
+        blurHash: 'L2RC_S-:_4ok0Foc?bN20CRonVt1',
+      },
+      {
+        imgURL: '/assets/images/to-do-app-3.PNG',
+        blurHash: 'L1RMf2_2?vRt0It5?cIY05N1%5%F',
+      },
     ],
     techStack: ['react'],
   },
@@ -143,9 +188,18 @@ export const projects = [
     websiteURL: 'https://cart-project-by-shoheb.netlify.app/',
     githubURL: 'https://github.com/Mahammed-Shoheb/cart-project',
     imgs: [
-      '/assets/images/cart-project-1.PNG',
-      '/assets/images/cart-project-2.PNG',
-      '/assets/images/cart-project-3.PNG',
+      {
+        imgURL: '/assets/images/cart-project-1.PNG',
+        blurHash: 'L4SPkURj-;~q0BM|WExt0ExuIU9G',
+      },
+      {
+        imgURL: '/assets/images/cart-project-2.PNG',
+        blurHash: 'L0SZ94?c.8~q009axvxu009aD%xu',
+      },
+      {
+        imgURL: '/assets/images/cart-project-3.PNG',
+        blurHash: 'L3M@v6Rj4T.708NGWXxa00oz~qMy',
+      },
     ],
     techStack: ['react', 'redux', 'tailwind CSS'],
   },
