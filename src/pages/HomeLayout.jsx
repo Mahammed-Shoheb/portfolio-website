@@ -6,6 +6,7 @@ import {
   Projects,
   About,
   Footer,
+  PageProgressIndicator,
 } from '../components';
 import { useEffect, useState } from 'react';
 
@@ -41,6 +42,7 @@ const HomeLayout = () => {
             : 'static'
         }`}
       >
+        <PageProgressIndicator />
         <Navbar openSidebar={openSidebar} />
       </header>
       <Sidebar isSidebarOpen={isSidebarOpen} closeSidebar={closeSidebar} />
