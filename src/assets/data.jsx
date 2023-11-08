@@ -203,6 +203,27 @@ export const projects = [
     ],
     techStack: ['react', 'redux', 'tailwind CSS'],
   },
+  {
+    id: nanoid(),
+    title: 'assiduus dashboard',
+    websiteURL: 'https://assiduus-dashboard-by-shoheb.netlify.app/',
+    githubURL: 'https://github.com/Mahammed-Shoheb/assiduus',
+    imgs: [
+      {
+        imgURL: '/assets/images/assiduus-dashboard-1.PNG',
+        blurHash: 'L2SZ5@gx9YtQ~qxa0J0JNG0cXjx[',
+      },
+      {
+        imgURL: '/assets/images/assiduus-dashboard-2.PNG',
+        blurHash: 'L5NAxIXO00t7%MofE0EJ00In~qX5',
+      },
+      {
+        imgURL: '/assets/images/assiduus-dashboard-3.PNG',
+        blurHash: 'L1SimfLA5O5N_MNF0J00E10JE^^+',
+      },
+    ],
+    techStack: ['react', 'd3 JS', 'tailwind CSS'],
+  },
 ];
 
 export const socialLinks = [
