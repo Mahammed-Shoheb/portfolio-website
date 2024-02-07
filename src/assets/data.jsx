@@ -224,6 +224,48 @@ export const projects = [
     ],
     techStack: ['react', 'd3 JS', 'tailwind CSS'],
   },
+  {
+    id: nanoid(),
+    title: 'youTube clone',
+    websiteURL: 'https://youtube-clone-by-shoheb.netlify.app/',
+    githubURL: 'https://github.com/Mahammed-Shoheb/youtube-clone',
+    imgs: [
+      {
+        imgURL: '/assets/images/youtube-clone-1.PNG',
+        blurHash: 'LGP?,Z~qxu_4-=ocRjRP-:RjV@M|',
+      },
+      {
+        imgURL: '/assets/images/youtube-clone-2.PNG',
+        blurHash: 'LZONa+M|?H%L?^$yRNM|4ot8%Mof',
+      },
+      {
+        imgURL: '/assets/images/youtube-clone-3.PNG',
+        blurHash: 'LhNTzYD$_3M|ITRjt7ay~q%MIUs:',
+      },
+    ],
+    techStack: ['react', 'material UI', 'rapid API'],
+  },
+  {
+    id: nanoid(),
+    title: 'codepen clone',
+    websiteURL: 'https://codepen-clone-by-shoheb.netlify.app/',
+    githubURL: 'https://github.com/Mahammed-Shoheb/codepen_clone',
+    imgs: [
+      {
+        imgURL: '/assets/images/codepen-1.PNG',
+        blurHash: 'L0L#5[~qIU~q009F%M9F00%MIU%M',
+      },
+      {
+        imgURL: '/assets/images/codepen-2.PNG',
+        blurHash: 'L0LqhI=|8w=y00E1?bE100.SOr.8',
+      },
+      {
+        imgURL: '/assets/images/codepen-3.PNG',
+        blurHash: 'L1IF0p$*Mx$*00M{x]M{_4x]S3x]',
+      },
+    ],
+    techStack: ['react', 'react codemirror2'],
+  },
 ];
 
 export const socialLinks = [
